@@ -25,7 +25,7 @@ function App() {
         <Route exact path="/favorite-recipes" component={ FavoriteRecipes } />
         <Route exact path="/drinks" component={ Drinks } />
         <Route exact path="/meals" component={ Meals } />
-        <Route exact path="/" component={ Login } />
+        <Route exact path="/Recipes-app" component={ Login } />
       </Switch>
     </div>
   );
